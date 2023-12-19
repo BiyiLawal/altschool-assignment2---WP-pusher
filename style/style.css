@@ -173,15 +173,22 @@ hr {
     background: #EDEFF2;
     border: none;
 }
-
+.card-input {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: none;
+    width: 78%;
+    background-color: #EDEFF2;
+}
 .card-input input {
-    width: 483px;
     height: 36px;
     border-radius: 4px;
     background: #EDEFF2;
     border: none;
     padding: 15px;
+    width: 100%;
 }
+
 
 .buy-button {
     width: 483px;

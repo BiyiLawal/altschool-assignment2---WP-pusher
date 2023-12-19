@@ -59,11 +59,10 @@
                     <div class="number">2</div>
                     <p class="heading">Your Payment Information</p>
                 </div>
-                <div class="card-input"><label for="email"></label><br>
-                    <input type="text" name="" id="" placeholder="Card Number
-                                          
-                    MM/YY
-            CVC">
+                <div class="card-input">
+                    <input type="text" pattern="[0-9]*" id="card-number" placeholder="Card Number">
+                    <input type="text" pattern="[0-9]*" id="expiry-date" placeholder="MM/YY">
+                    <input type="text" pattern="[0-9]*" id="cvv" placeholder="CVC">
                 </div>
                 <div class="checkoutline"></div>
                 <button class="buy-button">Buy WP Pusher</button>
