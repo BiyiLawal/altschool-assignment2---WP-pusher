@@ -130,7 +130,6 @@ hr {
 .input-section {
     display: flex;
     margin-top: 8px;
-
 }
 
 .input-section input {
@@ -179,6 +178,7 @@ hr {
     grid-gap: none;
     width: 78%;
     background-color: #EDEFF2;
+    border-radius: 4px;
 }
 .card-input input {
     height: 36px;
@@ -188,8 +188,12 @@ hr {
     padding: 15px;
     width: 100%;
 }
-
-
+input:focus{
+    outline: none;
+}
+.stripe-image{
+    display: inline;
+}
 .buy-button {
     width: 483px;
     height: 52px;
@@ -237,9 +241,6 @@ hr {
     font-weight: bold;
 }
 
-.stripe-image{
-    display: inline;
-}
 
 .right{
     width: 312px;
